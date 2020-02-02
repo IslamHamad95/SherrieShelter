@@ -1,0 +1,214 @@
+*{
+ margin:0;
+  padding:0;
+  font-family:Arial;
+
+}
+.header{
+  width:96%;
+  padding:1%;
+}
+.header img{
+  width:7%;
+  padding-left:2%;
+ 
+}
+
+
+.header #signup-login{
+  float:right;
+  margin-right:1%;
+  padding-top: 1%;
+  width:20%;
+
+}
+.header #signup-login #signup{
+  border-style: hidden;
+  background-color:white;
+  padding:3%;
+  font-size:1.0vw;
+  font-weight:700;  
+  
+}
+.header #signup-login #login{
+  border-style: hidden;
+  background-color:white;
+  padding:3%;
+  margin-left:15%;
+  font-size:1.0vw;
+  font-weight:700;
+
+}
+ #signup:hover {
+   
+   cursor: pointer;
+    text-decoration:underline;
+}
+
+ #login:hover {
+  cursor: pointer;
+   text-decoration:underline;
+  
+}
+
+
+ .navbar{
+  padding:1% 0% 1% 10%;
+ 
+
+  width:90%;
+  background-color:#2196F3;
+  overflow: hidden;
+   height:4%;
+
+}
+
+.navbar button{
+    font-size: 1.5vw;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin-left:5%;
+  
+}
+ .navbar button:hover{
+  text-decoration:underline;
+}
+
+main .headline{
+  border: 1px hidden;
+  width:100%
+}
+
+main .headline #h1, #h2{
+  color: white;;
+  position: absolute;
+
+}
+
+main .headline #h1{
+  top:50%;
+  left:69%;
+  font-size: 3vw;
+  font-weight: 500%;
+}
+
+main .headline #h2{
+  top:70%;
+  left:68%;
+  font-size: 2vw;
+  font-weight: 500%;
+}
+#imgheader{
+  width: 100%;
+}
+main .headline{ 
+  animation-name: catfadin;
+  animation-duration: 0.5s;
+  
+}
+
+@keyframes catfadin {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+main .theProcess{
+ 
+  position: relative;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 20% 20% 20%;
+  width: 92%;
+
+  padding: 3% 0% 3% 8%;
+  column-gap: 15%;
+
+}
+
+main .theProcess p{
+  margin-top: 4%;
+  font-size: small;
+
+}
+
+strong{
+  color: #2196F3;
+ 
+}
+
+main .theProcess img{
+  width: 20%;
+
+}
+main .theProcess #searchImg{
+  width:25%;
+}
+
+main .contact-socialmedia{
+  width: 100%;
+
+}
+
+main .contact{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 17% 19% 25%;
+  background-color: #2196F3;
+  column-gap: 15%;
+  column-gap: (3,4);
+  padding: 3% 0% 3% 10%;
+  
+}
+main .contact li{
+  margin-top: 10%;
+  text-align: left;
+  list-style-type: none;
+  margin-left: 10%;
+  font-size: small;
+ 
+}
+
+main .socialMedia{
+
+  background-color: rgb(11, 71, 121);
+  padding: 1%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 15%;
+
+}
+
+main .socialMedia p{
+  margin-top: 2%;
+  color: white;
+
+}
+main .socialMedia #social{
+  width: 30%;
+margin-left: 30%;
+
+
+ 
+
+}
+
+
+main .socialMedia img{
+width: 20%;
+margin-left: 10%;
+}
+
+
+footer a{
+
+  color: black;
+  
+}
+
+footer a:hover{
+
+  color: white;
+}
